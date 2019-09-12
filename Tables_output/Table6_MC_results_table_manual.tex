@@ -1,0 +1,23 @@
+
+\begin{table}[ht]
+\centering
+\caption{Simulation Results \label{tab_simulation}}
+\begin{tabular}{ccc|cc|cc}
+  \hline   \hline
+\multicolumn{3}{c}{Parameters}  & \multicolumn{2}{c}{Correction} & \multicolumn{2}{c}{Listw. Deletion (MCAR)} \\
+$\beta_0$   & $\rho$ & $\xi$    & $\widehat{\beta}_n$   & coverage for $\beta_0$    & $\widetilde{\beta}_n$   & coverage for $\beta_0$ \\
+  \hline
+  0.5       &  0.3   &   0.5    & 0.512            & 0.944                      & 0.450            & 0.941 \\
+       		  &  0.5   &   0.5    & 0.508            & 0.951                      & 0.464            & 0.946 \\
+       		  &  0.3   &   0.7    & 0.512            & 0.951                      & 0.458            & 0.936 \\
+       		 &  0.5   &   0.7    & 0.511            & 0.948                      & 0.464            & 0.933 \\
+       		 \hline
+  1.0       &  0.3   &   0.5    & 1.003            & 0.949                      & 0.912            & 0.914 \\
+  		       &  0.5   &   0.5    & 1.012            & 0.938                      & 0.928            & 0.934 \\
+ 		       &  0.3   &   0.7    & 1.002            & 0.950                      & 0.909            & 0.876 \\
+ 		     &  0.5   &   0.7    & 1.017            & 0.953                      &  0.929            & 0.900 \\
+   \hline   \hline
+\end{tabular}
+\vspace{2mm}\parbox{14.5cm}{\scriptsize{{\scshape Notes:} \scriptsize{Coverage at the 5\% nominal level.}}}
+%\vspace{-6cm}
+\end{table}
